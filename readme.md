@@ -1,4 +1,4 @@
-# Video-Based Drowsiness Detection: The VBFLLFA Pipeline
+# Video-Based Drowsiness Detection: The VBFL Pipeline
 **An End-to-End Deep Learning Architecture for Real-Time Fatigue Analysis**
 
 
@@ -18,7 +18,7 @@
 ## 📌 Project Overview
 This repository implements a highly optimized, temporal-aware deep learning pipeline designed to detect driver fatigue. Unlike traditional computer vision models that rely on heavy 3D-Convolutional Neural Networks (3D-CNNs) to process raw video pixels, this pipeline utilizes a two-step approach:
 1. **Spatial Extraction:** Lightweight mathematical facial metrics are extracted frame-by-frame.
-2. **Temporal Modeling:** A custom Transformer-based neural network (**VBFLLFA**) analyzes the sequence of these metrics over time to predict whether the driver is **Alert** or **Drowsy**.
+2. **Temporal Modeling:** A custom Transformer-based neural network (**VBFL**) analyzes the sequence of these metrics over time to predict whether the driver is **Alert** or **Drowsy**.
 
 ---
 
